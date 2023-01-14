@@ -16,3 +16,10 @@
     background-color: var(--c-primary-100);
   }
 }
+
+@media (min-width: $desktop-size) {
+  .wrapper__main {
+    padding: 3rem;
+    gap: 2rem;
+  }
+}

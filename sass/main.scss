@@ -19,3 +19,11 @@ body {
   text-align: center;
   position: relative;
 }
+
+@media (min-width: $desktop-size) {
+  body {
+    padding: 1rem;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: 100% 45%;
+  }
+}

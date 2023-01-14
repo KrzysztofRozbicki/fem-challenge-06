@@ -31,3 +31,10 @@
     gap: 5vw;
   }
 }
+
+@media (min-width: $desktop-size) {
+  .plan {
+    margin-top: -0.75rem;
+    padding: 1.5rem;
+  }
+}
