@@ -1,0 +1,15 @@
+@use '../utils' as *;
+
+.btn {
+  border: none;
+  border-radius: 11px;
+  background-color: var(--text-accent-500);
+  width: 100%;
+  padding-block: 1rem;
+  box-shadow: var(--shadow-box-button);
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: var(--text-accent-600);
+  }
+}

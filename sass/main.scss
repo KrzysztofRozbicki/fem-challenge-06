@@ -1,4 +1,21 @@
-@use '../sass/utils/vars' as *;
+@use '../sass/utils' as *;
 @use '../sass/components' as *;
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+body {
+  font-family: var(--ff-primary);
+  @extend .flex;
+  min-height: 100vh;
+  background-color: var(--bg-primary-500);
+  background-image: url('../images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  position: relative;
+}

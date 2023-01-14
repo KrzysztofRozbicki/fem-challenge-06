@@ -1,0 +1,33 @@
+@use '../utils' as *;
+
+.plan {
+  width: 100%;
+  border-radius: 11px;
+  padding: 1rem;
+  background-color: var(--bg-primary-400);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  &__image {
+    display: block;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+  &__price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 21.25em) {
+  .plan__box {
+    gap: 5vw;
+  }
+}

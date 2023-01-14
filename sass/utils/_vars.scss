@@ -1,0 +1,35 @@
+:root {
+  --fs-100: 0.6125rem;
+  --fs-200: 0.8125rem; //13px
+  --fs-300: 0.875rem; //14px
+  --fs-400: 0.9375rem; //15px -- constant
+  --fs-500: 0.9375rem; //15px
+  --fs-600: 1.375rem; //22px
+
+  --ff-primary: 'Red Hat Display', sans-serif;
+
+  --c-primary-100: hsl(0, 0%, 100%);
+  --bg-primary-400: hsl(225, 100%, 98%);
+  --bg-primary-500: hsl(225, 100%, 94%);
+
+  --text-accent-500: hsl(245, 75%, 52%);
+  --text-accent-600: hsl(245, 83%, 68%);
+
+  --text-primary-500: hsl(224, 23%, 55%);
+  --text-primary-600: hsl(223, 47%, 23%);
+
+  --shadow-box-button: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  --shadow-box-wrapper: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+$desktop-size: 32em;
+
+@media (min-width: $desktop-size) {
+  :root {
+    --fs-100: 0.75rem;
+    --fs-200: 0.875rem; // 14px;
+    --fs-300: 1rem;
+    --fs-500: 1rem; //16px
+    --fs-600: 1.75rem; //28px
+  }
+}
